@@ -1,0 +1,49 @@
+.singleBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #090f14;
+    box-shadow: 5px 5px 20px #010203;
+    border: 3px solid #090f14;
+    margin: 0.5rem;
+    max-width: 6rem;
+    text-align: center;
+    cursor: pointer;
+    transition: ease-in-out;
+  }
+  
+  .singleBox:hover {
+    border: 3px solid #fff;
+    transition: ease-in-out;
+  }
+  .singleBoxActive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121d2b;
+    border: 3px solid #fff;
+    box-shadow: 0px 3px 10px rgb(181, 215, 247);
+    margin: 0.5rem;
+    max-width: 6rem;
+    text-align: center;
+    cursor: pointer;
+    transition: ease-in-out;
+  }
+  
+  .singleImage {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+  }
+  .singleId {
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .singleType {
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  

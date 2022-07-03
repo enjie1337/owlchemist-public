@@ -1,0 +1,10 @@
+.nftContainer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  min-height: 45px;
+  background-color: rgb(7, 6, 11);
+  box-shadow: 5px 5px 20px #010203;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
